@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">"Solstice - Making Pairing Fun Again"</h1>
+          <h1 className="App-title">"Making Pairing Fun Again"</h1>
         </header>
         {true === false ? this.renderSummary() : this.renderQuestionnaire()}
       </div>
@@ -19,13 +19,13 @@ class App extends Component {
 
   renderQuestionnaire() {
     return (
-      <Questionnaire/>
+      <Questionnaire />
     );
   }
 
   renderSummary() {
     return (
-      <Summary/>
+      <Summary />
     );
   }
 }
